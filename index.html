@@ -57,6 +57,29 @@
         <section id="beneficios" aria-labelledby="beneficios-title">
             <h2 id="beneficios-title">Beneficios Principales</h2>
 
+            <!-- Contadores de estadísticas -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10000">0</span>
+                    <span class="stat-label">Usuarios Activos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Satisfacción</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-suffix">/7</span>
+                    <span class="stat-label">Soporte</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="150">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Países</span>
+                </div>
+            </div>
+
             <div class="beneficios-container">
 
                 <article class="beneficio">
@@ -321,6 +344,30 @@
             </nav>
         </div>
     </footer>
+
+    <!-- Modal para demo/información -->
+    <div id="demo-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar modal">&times;</button>
+            <h3 id="modal-title">¡Descubre NovaTech en Acción!</h3>
+            <p>Agenda una demostración personalizada y descubre cómo NovaTech puede transformar tu negocio.</p>
+            <div class="modal-features">
+                <div class="modal-feature">
+                    <span class="feature-icon">🚀</span>
+                    <p>Demo en vivo de 30 minutos</p>
+                </div>
+                <div class="modal-feature">
+                    <span class="feature-icon">💡</span>
+                    <p>Consultoría personalizada</p>
+                </div>
+                <div class="modal-feature">
+                    <span class="feature-icon">🎁</span>
+                    <p>Prueba gratuita de 14 días</p>
+                </div>
+            </div>
+            <button class="btn-primary modal-cta">Agendar Demo Gratuita</button>
+        </div>
+    </div>
 
     <script src="js/app.js"></script>
 </body>
