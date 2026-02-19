@@ -395,3 +395,42 @@ footer {
     transform: translateY(0);
   }
 }
+
+/* ================= ESTILOS PARA EMOJIS/ICONOS ================= */
+.beneficio-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.testimonio-avatar {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero-placeholder {
+    font-size: 8rem;
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+}
+
+.caracteristicas-placeholder {
+    font-size: 6rem;
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    display: inline-block;
+}
+
+.caracteristicas-caption {
+    margin-top: 1rem;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.social-links a {
+    font-size: 1.1rem;
+}
