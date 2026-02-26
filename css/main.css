@@ -437,4 +437,6 @@ footer {
 
 .navbar.scrolled {
   padding: 0.7rem 1.5rem;
+  background: rgba(236, 232, 232, 0.95);
+  backdrop-filter: blur(10px);
 }
