@@ -434,3 +434,7 @@ footer {
 .social-links a {
     font-size: 1.1rem;
 }
+
+.navbar.scrolled {
+  padding: 0.7rem 1.5rem;
+}
