@@ -440,4 +440,5 @@ footer {
   padding: 0.7rem 1.5rem;
   background: rgba(236, 232, 232, 0.95);
   backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
